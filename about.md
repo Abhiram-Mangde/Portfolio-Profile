@@ -5,4 +5,4 @@ title: About
 
 # About Me
 
-Write a brief introduction about yourself here. Share your background, interests, and what drives you.
+Welcome to my portfolio! This page is currently under construction. Stay tuned for updates.
