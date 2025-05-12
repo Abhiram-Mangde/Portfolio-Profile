@@ -25,6 +25,16 @@ jobs:
     - name: Install dependencies
       run: bundle install
 
+    - name: Debug Environment
+      run: |
+        echo "Ruby version: $(ruby -v)"
+        echo "Bundler version: $(bundle -v)"
+        echo "Installed gems:"
+        bundle list
+
+    - name: Debug Gemfile.lock
+      run: cat Gemfile.lock
+
     - name: Build site
       run: bundle exec jekyll build
 
